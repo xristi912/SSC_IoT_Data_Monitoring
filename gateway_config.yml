@@ -1,0 +1,13 @@
+# File gateway_config.yml
+identity:
+    orgId: Your_orgID
+    typeId: Your_typeID
+    deviceId: Yout_DeviceID
+auth:
+    token: your_auth_token_here
+options:
+    domain: internetofthings.ibmcloud.com
+    logLevel: debug
+    mqtt:
+        port: The_TCP_Port_You_Want
+        transport: tcp
